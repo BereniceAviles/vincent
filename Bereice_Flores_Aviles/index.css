@@ -1,0 +1,100 @@
+header{
+    background-color:yellow ;
+}
+body{
+    background-color: beige;
+}
+
+
+header nav{
+    text-align: right;
+    padding: 1rem;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 1rem;
+}
+header nav a:hover{
+    background-color: black;
+    color: yellow;
+    padding: 1rem;
+}
+
+.principal div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.principal h1{
+    color:cadetblue;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing:10px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.principal img{
+    height: 70%;
+    width: 40%;
+    margin-left: 20px;
+    border: 25px double brown;
+    
+}
+.principal p{
+    color: darkblue;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+.secundaria{
+    display: flex;
+    margin-top: 5rem;
+}
+.secundaria img{
+    width: 300px;
+    height:60%;
+    margin-left: 10%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.secundaria h2{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.secundaria p{
+    text-align: center;
+}
+.secundaria div{
+    margin: 1rem;
+   
+    
+}
+.secundaria p{
+    font-size: 19px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: darkblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#carouselExample{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+}
+    
+
+
+
+
+footer{
+    background-color: lightsteelblue;
+    
+}
+footer p{
+    text-align: center;
+    padding: 4rem;
+}
